@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer</title>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'El Messiri', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background: black;
+        }
+        
+        .menubar {
+            display: flex;
+            /* border: 2px solid white; */
+            justify-content: space-between;
+        }
+        
+        .logo {
+            /* border: 2px solid red; */
+            height: 105px;
+            width: 250px;
+        }
+        
+        .logo img {
+            height: 100px;
+            width: 250px;
+            /* border: 2px solid white; */
+        }
+        
+        nav {
+            margin-right: 30px;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin: 25px;
+        }
+        
+        nav ul li a {
+            font-size: 28px;
+            text-decoration: none;
+            color: rgb(253, 174, 47);
+        }
+        
+        nav ul li a:hover {
+            opacity: 0.5;
+        }
+        
+        .cont {
+            justify-self: center;
+            margin: 10px;
+        }
+        
+        .cont h1 {
+            justify-self: center;
+            text-align: center;
+            color: red;
+            margin: 20px;
+        }
+        
+        .ques {
+            color: white;
+            padding: 25px;
+            font-size: 15px;
+        }
+        
+        .hovv {
+            list-style: none;
+            font-size: 20px;
+        }
+        
+        .hov {
+            color: white;
+            list-style: none;
+        }
+        
+        .hov:hover {
+            color: rgb(253, 174, 47);
+        }
+        
+        .submit {
+            margin-left: 20px;
+        }
+        
+        .sub {
+            color: black;
+            font-size: 20px;
+            margin: 25px;
+            height: 35px;
+            width: 80px;
+        }
+        
+        .sub:hover {
+            background-color: rgb(253, 174, 47);
+            color: white;
+        }
+        
+        .footer {
+            color: rgb(253, 174, 47);
+        }
+    </style>
+</head>
+
+<body>
+    <navbar class="menubar" id="dp">
+        <div class="logo">
+            <a href="index.html"><img src="lucifer_logo.jpg" alt="Lucifer"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cast.html">Cast</a></li>
+                <li><a href="episode.html">Episode</a></li>
+                <li><a href="screenshot.html">Screenshots</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </navbar>
+    <hr>
+
+    <div class="cont">
+        <h1>The Quick Quiz for based on Lucifer Webseries</h1>
+        <marquee behavior="alternate" direction="left" bgcolor="rgb(253,174,47)" scrollamount="12">+1 for each correct answer and -0.25 for each incorrect answer</marquee>
+        <form class="quiz" id="quize" method="post ">
+            <ul>
+                <div class="ques ">
+
+                    <li class="hovv ">Ques 1) What is the other name of Lucifer Morningstar?</li><br>
+                    <label><li class="hov"><input type="radio" id="1" name="ans1">(A) Dark Lord</li></label><br>
+                    <label><li class="hov"><input type="radio" id="2" name="ans1">(B) Samael</li></label><br>
+                    <label><li class="hov"><input type="radio" id="3" name="ans1">(C) Micheal</li></label><br>
+                    <label><li class="hov"><input type="radio" id="4" name="ans1">(D) Prince of Lies</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 2) Which US city is Lucifer based in?</li><br>
+                    <label><li class="hov"><input type="radio" id="5" name="ans2">(A) San Francisco</li></label><br>
+                    <label><li class="hov"><input type="radio" id="6" name="ans2">(B) Los angales</li></label><br>
+                    <label><li class="hov"><input type="radio" id="7" name="ans2">(C) New York</li></label><br>
+                    <label><li class="hov"><input type="radio" id="8" name="ans2">(D) Los Vegas</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 3) Which musical instrument does Lucifer often play?</li><br>
+                    <label><li class="hov"><input type="radio" id="9" name="ans3">(A) Flute</li></label><br>
+                    <label><li class="hov"><input type="radio" id="10" name="ans3">(B) Guitar</li></label><br>
+                    <label><li class="hov"><input type="radio" id="11" name="ans3">(C) Piano</li></label><br>
+                    <label><li class="hov"><input type="radio" id="12" name="ans3">(D) Drums</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 4) What is the name of Lucifer’s nightclub?</li><br>
+                    <label><li class="hov"><input type="radio" id="13" name="ans4">(A) Luci's Place</li></label><br>
+                    <label><li class="hov"><input type="radio" id="14" name="ans4">(B) Hell on Earth</li></label><br>
+                    <label><li class="hov"><input type="radio" id="15" name="ans4">(C) Lux</li></label><br>
+                    <label><li class="hov"><input type="radio" id="16" name="ans4">(D) Eden</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 5) Which of his siblings does Lucifer kill?</li><br>
+                    <label><li class="hov"><input type="radio" id="17" name="ans5">(A) Micheal</li></label><br>
+                    <label><li class="hov"><input type="radio" id="18" name="ans5">(B) Castial</li></label><br>
+                    <label><li class="hov"><input type="radio" id="19" name="ans5">(C) Grabial</li></label><br>
+                    <label><li class="hov"><input type="radio" id="20" name="ans5">(D) Uriel</li></label><br><br>
+                </div>
+
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 6) How does Dr. Linda Martin help Lucifer?</li><br>
+                    <label><li class="hov"><input type="radio" id="21" name="ans6">(A) She's his therapist</li></label><br>
+                    <label><li class="hov"><input type="radio" id="22" name="ans6">(B) She manages Lux</li></label><br>
+                    <label><li class="hov"><input type="radio" id="23" name="ans6">(C) She's his accountant</li></label><br>
+                    <label><li class="hov"><input type="radio" id="24" name="ans6">(D) She saves his life</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 7) Chloe has an estranged husband, what is his name?</li><br>
+                    <label><li class="hov"><input type="radio" id="25 " name="ans7">(A) Darren</li></label><br>
+                    <label><li class="hov"><input type="radio" id="26 " name="ans7">(B) Dove</li></label><br>
+                    <label><li class="hov"><input type="radio" id="27 " name="ans7">(C) Dan</li></label><br>
+                    <label><li class="hov"><input type="radio" id="28 " name="ans7">(D) David</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 8) What's the name of Lucifer's nephew?</li><br>
+                    <label><li class="hov"><input type="radio" id="29" name="ans8">(A) Callum</li></label><br>
+                    <label><li class="hov"><input type="radio" id="30" name="ans8">(B) Connor</li></label><br>
+                    <label><li class="hov"><input type="radio" id="31" name="ans8">(C) Charlie</li></label><br>
+                    <label><li class="hov"><input type="radio" id="32" name="ans8">(D) Chris</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 9) Name the movie that Chloe was in as a teenager</li><br>
+                    <label><li class="hov"><input type="radio" id="33" name="ans9">(A) Hot tub time machine</li></label><br>
+                    <label><li class="hov"><input type="radio" id="34" name="ans9">(B) Hot in the hotel</li></label><br>
+                    <label><li class="hov"><input type="radio" id="35" name="ans9">(C) Pool party hostel</li></label><br>
+                    <label><li class="hov"><input type="radio" id="36" name="ans9">(D) Hot tub high school</li></label><br><br>
+                </div>
+
+                <div class="ques ">
+                    <li class="hovv ">Ques 10) Who tried to kill Chloe with a bomb?</li><br>
+                    <label><li class="hov"><input type="radio" id="37" name="ans10">(A) Azrael</li></label><br>
+                    <label><li class="hov"><input type="radio" id="38" name="ans10">(B) Amenadiel</li></label><br>
+                    <label><li class="hov"><input type="radio" id="39" name="ans10">(C) Uriel</li></label><br>
+                    <label><li class="hov"><input type="radio" id="40" name="ans10">(D) Charlotte</li></label><br><br>
+                </div>
+            </ul>
+            <div class="submit ">
+                <input type="submit" class="sub" value="Submit" onclick=quiz()>
+                <input type="reset" class="sub" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    function quiz() {
+        let x = 0;
+        if (document.getElementById(2).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(6).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(11).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+        if (document.getElementById(15).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(20).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(21).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(27).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(31).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(36).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        if (document.getElementById(40).checked) {
+            x = x + 1;
+        } else {
+            x = x - 0.25;
+        }
+
+        document.getElementById("quize").style.color = rgb(247, 174, 47);
+        document.getElementById("quize").style.textAlign = center;
+        document.getElementById("quize").innerHTML = `<h1>THE FINAL RESULT</h1><br>` + x + `/10`;
+    }
+</script>
+
+<div class="footer">
+    <hr>
+    <h3>made by Rumit Vasoya</h3>
+</div>
+
+
+</html>
