@@ -1,9 +1,9 @@
 # 😈 Lucifer
 
-Welcome to **Lucifer**, a powerful and feature-rich project designed to [briefly describe the purpose of your project].
+Welcome to **Lucifer**, a powerful and feature-rich project designed to simple use of HTML and CSS.
 
 ## 🚀 Live Demo
-🔗 [Live Project Link](#) *(Replace with actual link if available)*
+🔗 [Live Project Link](#)
 
 ## 📌 Features
 - ⚡ Fast and efficient
