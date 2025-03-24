@@ -3,7 +3,7 @@
 Welcome to **Lucifer**, a powerful and feature-rich project designed to simple use of HTML and CSS.
 
 ## 🚀 Live Demo
-🔗 [Live Project Link]((https://rumitpatel7660.github.io/Lucifer/))
+🔗 [Live Project Link]([https://rumitpatel7660.github.io/Lucifer/])
 
 ## 📌 Features
 - ⚡ Fast and efficient
